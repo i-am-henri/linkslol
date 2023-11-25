@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hen9</title>
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/98414850?v=4">
+</head>
+
+<body>
+    <img src="https://avatars.githubusercontent.com/u/98414850?v=4" class="avatar" />
+    <div class="text">
+        <h2 class="header">Hey, ich heiße Henri. ✌</h2>
+        <p class="p">Ich bin zurzeit 13 jahre alt, mir gefällt das programmieren sehr, ich interessiere mich für das
+            modden von Tastaturen und dem schneiden/animmieren von Videos. Ich arbeite zurzeit an vielen verschiedenen
+            Projekten, unteranderem Apps zum lernen, Discord-Bots und auch Websiten. Am besten, glaub ich, bin ich in 
+            JavaScript, kann aber auch ein bisschen Dart (mit Flutter) und Python.</p>
+        <div class="placeholder"></div>
+
+
+        <a href="http://github.com/prohen9" target="_blank">
+            <div class="githubLink">
+                <div class="githubText">
+                    <p>GitHub</p>
+                </div>
+                <div class="NameGitHub">
+                    <p>ProHen9</p>
+                </div>
+            </div>
+        </a>
+        <div class="placeholder2"></div>
+        
+
+    </div>
+    <style>
+        * {
+            font-family: calibri;
+            color: white;
+            margin: 0px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .avatar {
+            border-radius: 40px;
+        }
+        
+        .placeholder2{
+            height: 20px;
+        }
+        .githubLink {
+            border: solid 2px #36465f;
+            display: flex;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        body {
+            margin: 0px;
+            background-color: #2e5e99;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .text {
+            text-align: start;
+            position: absolute;
+            margin-top: 10%;
+            width: 40%;
+            right: 10%;
+        }
+
+        .githubText {
+            width: 50%;
+            background-color: #36465f;
+
+            padding: 10px;
+        }
+
+        .placeholder {
+            height: 10vh;
+        }
+
+        .NameGitHub {
+            width: 50%;
+            padding: 10px;
+
+        }
+
+        @media screen and (min-width: 800px) {
+            .avatar {
+                position: absolute;
+                left: 5%;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .text {
+                position: static;
+                width: 60%;
+            }
+
+            .avatar {
+                position: absolute;
+                top: 0px;
+                border-radius: 0px 0px 40px 40px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .text {
+                width: 80vw;
+                position: absolute;
+                bottom: 50px;
+        
+            }
+        }
+
+        @media screen and (max-width: 1100px) {
+            .avatar {
+                height: 30vh;
+                width: 30vh;
+            }
+        }
+        
+    </style>
+</body>
+
+</html>
